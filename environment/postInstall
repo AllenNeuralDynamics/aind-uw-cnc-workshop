@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -e
+
+# install hdmf-zarr
+git clone https://github.com/hdmf-dev/hdmf-zarr.git
+cd hdmf-zarr
+# git checkout a1898663c11079c0a5b3d797cba28998fd1e7aee
+pip install --no-cache-dir --ignore-installed .
+cd ..
