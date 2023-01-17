@@ -1,4 +1,4 @@
-# hash:sha256:a1326b8e8df6c33b588c59720f1fbf1faf7b5ea8db69ed7ef84b1ba3284b9e8e
+# hash:sha256:c10e545ec29fe3f1048dee8eb65c479add52886ab945bb9c2b62a2be6349139a
 FROM registry.codeocean.allenneuraldynamics.org/codeocean/miniconda3:4.9.2-cuda11.7.0-cudnn8-ubuntu20.04
 
 ARG DEBIAN_FRONTEND=noninteractive
@@ -12,7 +12,7 @@ RUN conda install -y \
     && conda clean -ya
 
 RUN pip install -U --no-cache-dir \
-    matplotlib==3.6.2 \
+    matplotlib==3.6.3 \
     numpy==1.24.1 \
     nwbwidgets==0.10.0 \
     pandas==1.5.2 \

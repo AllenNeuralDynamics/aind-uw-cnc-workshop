@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -e
 
+# install pydantic
+pip install pydantic[email]
+
 # install hdmf-zarr
 git clone https://github.com/hdmf-dev/hdmf-zarr.git
 cd hdmf-zarr
