@@ -1,2 +1,7 @@
 metadata_version: 1
 name: CNC Workshop - Ephys NWB Files
+description: Tutorial notebooks for AIND's first CNC workshop.
+authors:
+- name: Saskia de Vries
+- name: Joshua H. Siegle
+- name: Alessio Buccino
